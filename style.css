@@ -4,6 +4,7 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans',
     'Droid Sans', 'Helvetica Neue', sans-serif;
   color: #333;
+  background-color: #FFEFD5;
   font-size: 1.3em;
   line-height: 1.5em;
   margin: 0;
@@ -51,14 +52,6 @@ h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
-
-a {
-  color: #333;
-  text-decoration: none;
-  padding-bottom: 2px;
-  border-bottom: 2px solid #333;
-}
-
 .wrapper {
   max-width: 900px;
   min-width: 300px;
@@ -68,9 +61,19 @@ a {
 }
 
 .def,
-h3 + ul strong {
-  color: #569efe;
+h3 {
+  color: #006400;
 }
+
+a.wiki {color:#9400D3;}     /* unvisited link */
+a.wiki:visited {color:#9400D3;}  /* visited link */
+a.wiki:hover {color:#9400D3;}  /* mouse over link */
+a.wiki:active {color:#9400D3;}  /* selected link */
+
+a.localLink {color:#DB7093;}      /* unvisited link */
+a.localLink:visited {color:#DB7093;}  /* visited link */
+a.localLink:hover {color:#DB7093;}  /* mouse over link */
+a.localLink:active {color:#DB7093;}  /* selected link */
 
 table {
   display: inline-block;
@@ -111,6 +114,14 @@ footer {
   h2 { font-size: 2em; line-height: 1.5em; }
   h1 + p, h2 + p { font-size: 1em; line-height: 1.5em; }
   table + table + table th { display: none;}
+}
+
+#what-is-tea {
+  
+}
+
+.chinese {
+  color: #FF0000;
 }
 
 
